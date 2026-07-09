@@ -1,0 +1,85 @@
+<?php
+
+// =====================================================================
+// EXERCICIOS - IF / ELSE / SWITCH
+// =====================================================================
+
+
+
+
+
+
+/* ------------------------------------------
+   FACIL
+   ------------------------------------------ */
+
+// 1. Crie uma variavel $idade. Se for >= 18 imprima "Maior de idade",
+//    senao "Menor de idade"
+
+
+
+// 2. Crie uma variavel $nota (0 a 10). Se for >= 7 imprima "Aprovado",
+//    senao "Reprovado"
+
+
+
+// 3. Use switch para imprimir o dia da semana baseado em $dia (1 a 7)
+
+
+
+// 4. Verifique se um numero e par ou impar usando if/else
+
+
+
+/* ------------------------------------------
+   MEDIO
+   ------------------------------------------ */
+
+// 5. Crie um sistema de notas com conceitos:
+//    A (90-100), B (80-89), C (70-79), D (60-69), F (<60)
+
+
+
+// 6. Use o operador ternario para definir $acesso:
+//    Se $admin for true, "total", senao "restrito"
+
+
+
+// 7. Crie um switch que retorna o preco baseado no mes:
+//    Janeiro = Ferias, Julho = Ferias, Dezembro = Ferias
+//    Outros = "Mes normal"
+
+
+
+// 8. Valide um login: se email = "admin@email.com" E senha = "123" -> "OK"
+//    senao -> "Dados incorretos". Teste com dados certos e errados.
+
+
+
+/* ------------------------------------------
+   DIFICIL
+   ------------------------------------------ */
+
+// 9. Crie um calculo de IMC:
+//    Abaixo de 18.5 = "Abaixo do peso"
+//    18.5 - 24.9 = "Peso normal"
+//    25 - 29.9 = "Sobrepeso"
+//    30+ = "Obesidade"
+//    IMC = peso / (altura * altura)
+
+
+
+// 10. Simule um caixa eletronico com saques de:
+//     10, 20, 50, 100 reais
+//     O usuario informa o valor e o programa diz quantas notas de cada
+//     Ex: 180 = 1 de 100 + 1 de 50 + 1 de 20 + 1 de 10
+
+
+
+// 11. Jogo pedra-papel-tesoura:
+//     O usuario escolhe (variavel $jogador) e o computador sorteia
+//     Use rand(0,2) para o computador (0=pedra, 1=papel, 2=tesoura)
+//     Determine quem ganhou
+
+
+?>
