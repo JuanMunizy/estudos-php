@@ -16,7 +16,7 @@
    ------------------------------------------ */
 
 // 1. Imprima "Ola, mundo!" na tela
-echo "ola mundo";
+echo "Ola, mundo!";
 
 
 
@@ -34,10 +34,14 @@ echo $a + $b;
 
 // 4. Crie uma constante MINHA_IDADE com sua idade e imprima
 
+const MINHA_IDADE = 22;
+echo MINHA_IDADE;
+
 
 
 // 5. Crie uma variavel $preco com valor 49.90 e imprima "R$ 49.90"
-
+$preco = 49.90;
+echo "R$ $preco";
 
 
 /* ------------------------------------------
