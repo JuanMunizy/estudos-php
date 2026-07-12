@@ -11,7 +11,7 @@
 - [x] 04_tipos_dados.php - int, float, string, bool, array, object
 
 ## Exercícios feitos
-- [x] 01_sintaxe_variaveis.php - ex 1, 2, 3 (echo, variável, soma)
+- [x] 01_sintaxe_variaveis.php - ex 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 
 ## Próximos passos
 - Continuar arquivo 05_operadores.php
