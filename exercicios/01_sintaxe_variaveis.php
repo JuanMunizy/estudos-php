@@ -160,6 +160,14 @@ echo calcular(10, 5, "/");
 
 // 12. Crie uma funcao recursiva que calcula o fatorial de um numero
 //     Fatorial de 5 = 5 * 4 * 3 * 2 * 1 = 120
+function fatorial($n) {
+   if ($n <= 1) {
+      return 1;
+   } else {
+      return $n * fatorial($n - 1);
+   }
+}
 
+echo fatorial(5);
 
 ?>
