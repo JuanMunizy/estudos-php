@@ -118,8 +118,45 @@ echo $B;
 // 11. Crie um sistema simples de calculadora usando funcoes
 //     Criar funcoes: somar, subtrair, multiplicar, dividir
 //     Depois criar uma funcao "calcular($a, $b, $op)" que chama a funcao certa
+function somar($a, $b) {
+   return $a + $b;
+}
 
+function subtrair ($a, $b) {
+   return $a  - $b;
+}
 
+function multiplicar($a, $b) {
+   return $a * $b;
+}
+
+function dividir ($a, $b) {
+   return $a / $b;
+}
+
+function calcular($a, $b, $op) {
+   switch ($op) {
+         case "+":
+            return somar($a, $b);
+            break;
+         case "-":
+            return subtrair($a, $b);
+            break;
+         case "*":
+            return multiplicar($a, $b);
+            break;
+         case "/":
+            return dividir($a, $b);
+            break;
+         default:
+            return "Operacao invalida";
+   }
+}
+
+echo calcular(10, 5, "+");
+echo calcular(10, 5, "-");
+echo calcular(10, 5, "*");
+echo calcular(10, 5, "/");
 
 // 12. Crie uma funcao recursiva que calcula o fatorial de um numero
 //     Fatorial de 5 = 5 * 4 * 3 * 2 * 1 = 120
