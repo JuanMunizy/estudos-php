@@ -15,21 +15,64 @@
 
 // 1. Crie uma variavel $idade. Se for >= 18 imprima "Maior de idade",
 //    senao "Menor de idade"
+$idade = 18;
 
+if ($idade >= 18) {
+   echo "Maior de idade";
+}else {
+   echo "menor de idade";
+} 
 
 
 // 2. Crie uma variavel $nota (0 a 10). Se for >= 7 imprima "Aprovado",
 //    senao "Reprovado"
 
+$nota = 7;
+if ($nota >= 7) {
+   echo "Aprovado";
+} else {
+   echo "Reprovado";
+}
 
 
 // 3. Use switch para imprimir o dia da semana baseado em $dia (1 a 7)
+$dia = 7;
+switch ($dia) {
+   case 1:
+      echo "Domingo";
+      break;
+   case 2:        
+      echo "Segunda";
+      break;
+   case 3:
+      echo "Terca";
+      break;
+   case 4:        
+      echo "Quarta";
+      break;
+   case 5:
+      echo "Quinta";
+      break;
+   case 6:
+      echo "Sexta";
+      break;
+   case 7:
+      echo "Sabado";
+      break;
+   default:
+      echo "Dia invalido";
+      break;
+}
 
 
 
 // 4. Verifique se um numero e par ou impar usando if/else
-
-
+$numero = 4;
+if ($numero % 2 == 0) {
+   echo "Par";
+} else {
+   echo "Impar";
+}
 
 /* ------------------------------------------
    MEDIO

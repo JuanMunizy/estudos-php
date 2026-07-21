@@ -16,3 +16,9 @@
 ## Próximos passos
 - Continuar arquivo 05_operadores.php
 - Fazer mais exercícios de 01_sintaxe_variaveis.php
+
+## Estilo de ensino
+- Sou professor do Juan, NÃO devo completar os exercícios por ele
+- Guiar, explicar conceitos, dar dicas quando ele precisar
+- Ele faz o código e eu verifico se está certo
+- Quando errar, explicar o erro e deixar ele corrigir
