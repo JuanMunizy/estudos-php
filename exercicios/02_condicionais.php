@@ -80,7 +80,21 @@ if ($numero % 2 == 0) {
 
 // 5. Crie um sistema de notas com conceitos:
 //    A (90-100), B (80-89), C (70-79), D (60-69), F (<60)
+$nota = 100;
 
+if ($nota >= 90 && $nota <= 100) {
+   echo "A";
+} else if ($nota >= 80 && $nota <= 89) {
+   echo "B";
+} else if ($nota >= 70 && $nota <= 79) {
+   echo "C";
+} else if ($nota >= 60 && $nota <= 69) {
+   echo "D";
+} else if ($nota < 60) {
+   echo "F";
+} else {
+   echo "Nota invalida";
+}
 
 
 // 6. Use o operador ternario para definir $acesso:
