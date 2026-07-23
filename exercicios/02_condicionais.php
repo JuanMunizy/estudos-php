@@ -125,8 +125,14 @@ switch ($mes) {
 
 // 8. Valide um login: se email = "admin@email.com" E senha = "123" -> "OK"
 //    senao -> "Dados incorretos". Teste com dados certos e errados.
+$email = "";
+$senha = "";
 
-
+if ($email == "admin@email.com" && $senha == "123") {
+   echo "OK";
+} else {
+   echo "Dados incorretos";
+}
 
 /* ------------------------------------------
    DIFICIL
