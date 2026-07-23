@@ -12,10 +12,11 @@
 
 ## Exercícios feitos
 - [x] 01_sintaxe_variaveis.php - ex 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+- [x] 02_condicionais.php - ex 1, 2, 3, 4, 5, 6, 7, 8
 
 ## Próximos passos
-- Continuar arquivo 05_operadores.php
-- Fazer mais exercícios de 01_sintaxe_variaveis.php
+- Continuar 02_condicionais.php a partir do ex 9 (dificil)
+- Depois fazer 03_loops_arrays.php
 
 ## Estilo de ensino
 - Sou professor do Juan, NÃO devo completar os exercícios por ele
