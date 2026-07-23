@@ -99,7 +99,9 @@ if ($nota >= 90 && $nota <= 100) {
 
 // 6. Use o operador ternario para definir $acesso:
 //    Se $admin for true, "total", senao "restrito"
-
+$admin  = true;
+$acesso = $admin ? "total" : "restrito";
+echo $acesso;
 
 
 // 7. Crie um switch que retorna o preco baseado no mes:
