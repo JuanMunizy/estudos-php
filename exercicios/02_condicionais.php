@@ -107,7 +107,20 @@ echo $acesso;
 // 7. Crie um switch que retorna o preco baseado no mes:
 //    Janeiro = Ferias, Julho = Ferias, Dezembro = Ferias
 //    Outros = "Mes normal"
+$mes = "Janeiro";
+switch ($mes) {
+   case "Janeiro":
+   case "Julho":        
 
+      echo "Ferias";
+      break;
+   case "Dezembro":
+      echo "Ferias"; 
+       break;
+   default:
+      echo "Mes normal";
+      break;
+}
 
 
 // 8. Valide um login: se email = "admin@email.com" E senha = "123" -> "OK"
